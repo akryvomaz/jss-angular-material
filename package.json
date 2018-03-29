@@ -1,0 +1,48 @@
+{
+    "name": "jss-angular-material",
+    "version": "0.1.0",
+    "description": "JSS Material Design styles for Angular",
+    "homepage": "https://github.com/akryvomaz/jss-angular-material",
+    "bugs": "https://github.com/akryvomaz/jss-angular-material/issues",
+    "author": {
+        "name": "Alexander Kryvomaz",
+        "email": "akryvomaz@gmail.com"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/akryvomaz/jss-angular-material.git"
+    },
+    "engines": {
+        "node": ">=8"
+    },
+    "main": "./dist/index.js",
+    "scripts": {
+        "build": "tsc",
+        "lint": "tslint ./src/**/*.ts && eslint . --cache",
+        "test-material": "node-sass ./test/angular-material/theme.scss --output-style compressed",
+        "test": "npm run build && mocha ./test/test.js"
+    },
+    "dependencies": {
+        "@angular/material": "5.2.4",
+        "@angular/cdk": "5.2.4",
+        "@angular/core": "5.2.9",
+        "@angular/common": "5.2.9",
+        "colornames": "1.1.1",
+        "jss": "9.8.1",
+        "jss-global": "3.0.0",
+        "jss-nested": "6.0.1",
+        "rxjs": "5.5.8",
+        "zone.js": "0.8.20"
+    },
+    "devDependencies": {
+        "@types/jss": "9.3.3",
+        "chai": "4.1.2",
+        "eslint": "4.19.1",
+        "mocha": "5.0.5",
+        "node-sass": "4.8.3",
+        "tslint": "5.9.1",
+        "tslint-eslint-rules": "5.1.0",
+        "typescript": "2.8.1"
+    }
+}

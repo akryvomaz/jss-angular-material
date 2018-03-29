@@ -1,0 +1,11 @@
+export const darkPrimaryText: string = 'rgba(black, 0.87)';
+export const darkSecondaryText: string = 'rgba(black, 0.54)';
+export const darkDisabledText: string = 'rgba(black, 0.38)';
+export const darkDividers: string = 'rgba(black, 0.12)';
+export const darkFocused: string = 'rgba(black, 0.12)';
+export const lightPrimaryText: string = 'white';
+export const lightSecondaryText: string = 'rgba(white, 0.7)';
+export const lightDisabledText: string = 'rgba(white, 0.5)';
+export const lightDividers: string = 'rgba(white, 0.12)';
+export const lightFocused: string = 'rgba(white, 0.12)';
+export const matRippleColorOpacity: number = 0.1;

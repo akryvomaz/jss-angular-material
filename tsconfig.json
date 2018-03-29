@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "outDir": "./dist/",
+        "declaration": true,
+        "removeComments": true,
+        "lib": [
+            "es2018",
+            "dom"
+        ],
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": false,
+        "alwaysStrict": true,
+        "forceConsistentCasingInFileNames": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noUnusedLocals": true,
+        "strictPropertyInitialization": true
+    },
+    "include": [
+        "./src/"
+    ]
+}
