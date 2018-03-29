@@ -1,4 +1,6 @@
 # JSS Material Design styles for Angular
+[![Build Status](https://travis-ci.org/akryvomaz/jss-angular-material.svg?branch=master)](https://travis-ci.org/akryvomaz/jss-angular-material)
+
 This is the copy of [Angular Material](#https://github.com/angular/material2) style theme based on [JSS](#https://github.com/cssinjs/jss).
 
 [More information about Angular Material theme](#https://material.angular.io/guide/theming).
