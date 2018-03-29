@@ -1,0 +1,11 @@
+/node_modules/
+/src/
+/test/
+.eslintcache
+.eslintignore
+.eslintrc.json
+.gitignore
+.travis.yml
+package-lock.json
+tsconfig.json
+tslint.json

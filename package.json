@@ -1,6 +1,6 @@
 {
     "name": "jss-angular-material",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "JSS Material Design styles for Angular",
     "homepage": "https://github.com/akryvomaz/jss-angular-material",
     "bugs": "https://github.com/akryvomaz/jss-angular-material/issues",
@@ -13,6 +13,12 @@
         "type": "git",
         "url": "https://github.com/akryvomaz/jss-angular-material.git"
     },
+    "keywords": [
+        "jss",
+        "css-in-js",
+        "angular",
+        "material"
+    ],
     "engines": {
         "node": ">=8"
     },
